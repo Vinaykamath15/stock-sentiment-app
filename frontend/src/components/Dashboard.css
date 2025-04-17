@@ -1,0 +1,47 @@
+.stock-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .stock-card {
+    width: 300px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .stock-card h3 {
+    margin-top: 0;
+  }
+  
+  .stock-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .stock-card li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  
+  .tag {
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  .tag.positive {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .tag.negative {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  

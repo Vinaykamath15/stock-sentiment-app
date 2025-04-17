@@ -1,0 +1,30 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: #61dafb;
+}
